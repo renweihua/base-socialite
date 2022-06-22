@@ -8,10 +8,14 @@
             "email": "2278757482@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "~5.0|~6.0",
+        "symfony/http-foundation": "3.4.35"
+    },
     "autoload": {
         "psr-4": {
-            "Cnpscy\\BaseSocialite\\": "src"
+            "Cnpscy\\BaseSocialite\\": "./src/"
         }
     }
 }

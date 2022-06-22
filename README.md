@@ -2,6 +2,7 @@
 
 <p align="center"> Third party login authentication..</p>
 
+在 <a href="https://github.com/Overtrue/Socialite">https://github.com/Overtrue/Socialite</a> 基础之上，做的变动，此项目仅个人使用。
 
 ## Installing
 
