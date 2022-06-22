@@ -1,0 +1,17 @@
+{
+    "name": "cnpscy\/base-socialite",
+    "description": "Third party login authentication.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "小丑路人",
+            "email": "2278757482@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cnpscy\\BaseSocialite\\": "src"
+        }
+    }
+}
