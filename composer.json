@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "guzzlehttp/guzzle": "~5.0|~6.0|~7.*|^7.2|^7.4",
+        "guzzlehttp/guzzle": "~5.0|~6.0|^7.2|^7.4",
         "symfony/http-foundation": "3.4.35"
     },
     "autoload": {
