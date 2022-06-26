@@ -451,6 +451,8 @@ abstract class AbstractProvider implements ProviderInterface
         return new AccessToken($body);
     }
 
+    protected $code;
+
     /**
      * Get the code from the request.
      *
@@ -458,7 +460,13 @@ abstract class AbstractProvider implements ProviderInterface
      */
     protected function getCode()
     {
-        return $this->request->get('code');
+        return $this->code ? $this->code : $this->request->get('code');
+    }
+
+    public function setCode($code)
+    {
+        $this->code = $code;
+        return $this;
     }
 
     /**
